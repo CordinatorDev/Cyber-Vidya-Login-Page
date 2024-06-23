@@ -1,0 +1,105 @@
+body {
+    background-image: url("instance-bg.jpg");
+    background-size: cover ;
+    
+}
+/* #abc {
+    background-color: black;
+    opacity: 50%;
+    height: 100vh;
+    width: 500vh
+}
+ */
+.main {
+    background-color: white;
+    width: 550px;
+    height: 670px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+#ghriet{
+    height: 100px;
+    width:100px;
+    position: absolute;
+    left: 100px;
+    top:30px
+}
+
+#cyber-vidya {
+    height: 100px;
+    position: absolute;
+    right: 50px;
+    top:30px
+}
+
+.content{/* 
+    background-color: aqua; */
+    position: absolute;
+    top: 175px;
+    width: 550px;
+    height: 480px;
+    padding: 7%;
+}
+
+.usr {
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+#usr {
+    margin: 20px;
+    margin-right: 47px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 2px rgb(192, 192, 192);
+}
+
+.pwd {
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+#pwd {
+    margin: 20px;
+    margin-right: 40px;
+    
+    margin-left: 40px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 2px rgb(192, 192, 192);
+}
+
+a {
+    position: absolute;
+    top: 55%;
+    right: 15%;
+    font-size: 18px;
+}
+
+#recaptcha {
+    background-color: rgb(243, 243, 243);
+    border: solid 2px rgb(193, 193, 193);
+    height: 100px;
+    width: 80%; 
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#robot{
+    
+    margin: 5%;
+    transform: scale(2.5);
+}
+
+#btn { position: absolute;
+    left: 45%;
+    top: 87%;
+    transform: scale(1.2);
+}
